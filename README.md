@@ -24,6 +24,7 @@ Step3: Create a register control or handler for user registration. Here we give
 - npm followed by db had to be installed to do the project. initializing sql gave me an error. successfully having it done after a 3-day struggle, i got a 'package.json' file which has all the information related to the packages installed for my project. 
 - i created a table in mySQL naming it 'users'. this is for user registration. 
 - I created 'login.html' - user registration form and 'login.js'- database connectivity and updating query file.  So, my folder had these three files including 'package.json'. 
+
 Resources: 
 - http://www.expertphp.in/article/user-login-and-registration-using-nodejs-and-mysql-with-example 
 - https://medium.com/technoetics/handling-user-login-and-registration-using-nodejs-and-mysql-81b146e37419
@@ -31,10 +32,10 @@ Resources:
            
 Folder structure:
 -User_Registration
- * node_modules
- * package.json
- * login.html
- * login.js
+ * node_modules- 
+ * package.json- https://github.com/Pannaga01/Voting-App-project/blob/master/package.json
+ * login.html- https://github.com/Pannaga01/Voting-App-project/blob/master/login.html
+ * login.js- https://github.com/Pannaga01/Voting-App-project/blob/master/login.js
  
 
 ### Step2: To making 'voting app'
@@ -44,10 +45,14 @@ Folder structure:
  Folder Structure:
  - Vote database
   * node_modules
-  * package.json
+  * package1.json- https://github.com/Pannaga01/Voting-App-project/blob/master/package1.json
   * server.js
-  * select.html
-  * button1.html, button2.html, button3.html, button4.html
+  * select.html- https://github.com/Pannaga01/Voting-App-project/blob/master/select.html
+  * button1.html, button2.html, button3.html, button3.html
+    - https://github.com/Pannaga01/Voting-App-project/blob/master/button1.html
+    - https://github.com/Pannaga01/Voting-App-project/blob/master/button2.html
+    - https://github.com/Pannaga01/Voting-App-project/blob/master/button3.html
+
 Resources: 
 - https://www.w3schools.com/css/css3_buttons.asp
 - https://www.w3schools.com/bootstrap/bootstrap_buttons.asp
