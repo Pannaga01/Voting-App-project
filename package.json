@@ -1,19 +1,20 @@
 {
-  "name": "database_votes",
+  "name": "user_registration",
   "version": "1.0.0",
-  "description": "database for count of the votes",
-  "main": "index.js",
+  "description": "for VotingApp",
+  "main": "server.js",
+  "dependencies": {
+    "bcrypt": "^3.0.6",
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "mysql": "^2.17.1",
+    "pug": "^2.0.4"
+  },
+  "devDependencies": {},
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon login.js"
   },
   "author": "",
-  "license": "ISC",
-  "dependencies": {
-    "body-parser": "^1.19.0",
-    "ejs": "^2.7.2",
-    "express": "^4.17.1",
-    "express-fileupload": "^1.1.6-alpha.6",
-    "mysql": "^2.17.1",
-    "req-flash": "0.0.3"
-  }
+  "license": "ISC"
 }
