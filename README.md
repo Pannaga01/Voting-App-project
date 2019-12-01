@@ -41,7 +41,8 @@ Folder structure:
 ### Step2: To making 'voting app'
 - I created the 'select.html' file which gives the option to choose a question. Each of the question was a button linked to an other html (using css for buttons) which has options for teach of the respective questions. 
 - So i had four more files 'button1.html', 'button2.html', 'button3.html', 'button4.html'. Each of them had 4 option buttons (used bootstrap). 'select.html' was linked to "submit" of 'login.html'. 
-- If an option is selected under a question, it has to update the vote number. for this i created an other table 'votes' which updates the no.of votes. So, i followed the same procedure for creating a table in mySQL. i found a code but in 'php' for updating the votes
+- If an option is selected under a question, it has to update the vote number. for this i created an other table 'votes' which updates the no.of votes. So, i followed the same procedure for creating a table in mySQL. i found a code but in 'php' for updating the votes. (php file: https://github.com/Pannaga01/Voting-App-project/blob/master/insert.php)
+ 
  Folder Structure:
  - Vote database
   * node_modules
