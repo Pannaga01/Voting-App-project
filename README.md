@@ -37,6 +37,8 @@ Folder structure:
  * login.html- https://github.com/Pannaga01/Voting-App-project/blob/master/login.html
  * login.js- https://github.com/Pannaga01/Voting-App-project/blob/master/login.js
  
+ Note: I am done with the user registration. Any user registered is added to the database. 
+ 
 
 ### Step2: To making 'voting app'
 - I created the 'select.html' file which gives the option to choose a question. Each of the question was a button linked to an other html (using css for buttons) which has options for teach of the respective questions. 
